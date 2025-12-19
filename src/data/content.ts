@@ -46,13 +46,13 @@ export const CERTIFICATIONS = [
         name: "Meta Front-End Developer Professional Certificate",
         platform: "Coursera",
         issuer: "Meta",
-        link: "#" // Placeholder if not provided
+        link: "https://coursera.org/share/b815b6baeebf980bfe532f87a237bb9e"
     },
     {
         name: "Microsoft IT Support Specialist Professional Certificate",
         platform: "Coursera",
         issuer: "Microsoft",
-        link: "#" // Placeholder if not provided
+        link: "https://coursera.org/share/751d21c81e3f6068412bc6eafa5d4826"
     },
 ];
 
