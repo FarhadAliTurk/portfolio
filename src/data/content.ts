@@ -1,9 +1,9 @@
-import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaBootstrap, FaDatabase } from 'react-icons/fa';
+import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaBootstrap, FaDatabase, FaGithub, FaGitAlt } from 'react-icons/fa';
 import { SiTailwindcss } from 'react-icons/si';
 
 export const PERSONAL_DETAILS = {
-    name: "Farhad Ali",
-    role: "Frontend Developer | React Developer | BS Computer Science Student",
+    name: "Farhad Ali Turk",
+    role: "Frontend Developer | React Developer",
     shortIntro: "Frontend Developer specializing in React.js and modern UI design",
     email: "farhadaliturk.official@gmail.com",
     whatsapp: "+92 316 1193300",
@@ -22,34 +22,36 @@ export const SKILLS = [
     { name: "Tailwind CSS", icon: SiTailwindcss, color: "#06B6D4" },
     { name: "React.js", icon: FaReact, color: "#61DAFB" },
     { name: "MySQL", icon: FaDatabase, color: "#4479A1" },
+    { name: "Git", icon: FaGitAlt, color: "#F05032" },
+    { name: "GitHub", icon: FaGithub, color: "#181717" },
 ];
 
 export const EDUCATION = [
     {
         degree: "BS Computer Science",
         institution: "University of Sindh, Jamshoro",
-        year: "Jan 2024 – Present (4 Years)",
-        description: "Currently pursuing Bachelor's in Computer Science."
+        year: "2024 - Continue",
+        description: "Pursuing Bachelor's in Computer Science."
     },
     {
-        degree: "Intermediate (Pre-Engineering)",
-        institution: "DNMGD College, Tando Allahyar",
-        year: "2020 – 2022 (2 Years)",
-        description: "Completed Intermediate with Pre-Engineering focus."
+        degree: "XII (BISEH)",
+        institution: "Dr Nasreen Maqbool Govt: Degree College, TandoAllahyar, Sindh",
+        year: "2023",
+        description: "Grade: A-1 (81.18%) - Pre-Engineering"
     },
 ];
 
 export const CERTIFICATIONS = [
     {
-        name: "Meta Front-End Developer",
+        name: "Meta Front-End Developer Professional Certificate",
         platform: "Coursera",
         issuer: "Meta",
         link: "#" // Placeholder if not provided
     },
     {
-        name: "Deep Learning",
+        name: "Microsoft IT Support Specialist Professional Certificate",
         platform: "Coursera",
-        issuer: "DeepLearning.AI",
+        issuer: "Microsoft",
         link: "#" // Placeholder if not provided
     },
 ];
@@ -57,15 +59,15 @@ export const CERTIFICATIONS = [
 export const PROJECTS = [
     {
         title: "Admin Dashboard",
-        description: "A comprehensive admin dashboard with data visualization and management tools.",
-        tech: ["React.js", "Tailwind CSS", "Recharts"],
+        description: "Built a responsive React Admin Dashboard with user & post management, charts, and CRUD functionality using LocalStorage.",
+        tech: ["React.js", "Tailwind CSS", "LocalStorage", "Recharts"],
         demo: "https://admin-dashboard-phi-one-94.vercel.app/",
         repo: "https://github.com/FarhadAliTurk/Admin-Dashboard"
     },
     {
         title: "E-Commerce Store",
-        description: "Full-featured e-commerce platform with cart and checkout functionality.",
-        tech: ["React.js", "Context API", "Stripe"],
+        description: "Developed a fully responsive e-commerce frontend with product listings, cart, wishlist, and checkout flow using React and Tailwind CSS.",
+        tech: ["React.js", "Tailwind CSS", "Context API"],
         demo: "https://e-store-olive-nine.vercel.app/",
         repo: "https://github.com/FarhadAliTurk/e-store"
     },
