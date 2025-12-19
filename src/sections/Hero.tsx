@@ -2,8 +2,8 @@ import { motion } from 'framer-motion';
 import { FaDownload, FaEnvelope } from 'react-icons/fa';
 import { PERSONAL_DETAILS } from '../data/content';
 import SectionWrapper from '../components/SectionWrapper';
-import profileImg from '../assets/profile1.jpg';
-import resumePdf from '../assets/Farhads_Resume.pdf';
+import profileImg from '../assets/blue.png';
+import resumePdf from '../assets/FARHAD ALI TURK.pdf';
 
 export default function Hero() {
     return (

@@ -59,7 +59,7 @@ export const PROJECTS = [
         title: "Admin Dashboard",
         description: "A comprehensive admin dashboard with data visualization and management tools.",
         tech: ["React.js", "Tailwind CSS", "Recharts"],
-        demo: "https://admin-dashboard-phi-one-94.vercel.app/login",
+        demo: "https://admin-dashboard-phi-one-94.vercel.app/",
         repo: "https://github.com/FarhadAliTurk/Admin-Dashboard"
     },
     {
